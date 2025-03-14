@@ -18,7 +18,6 @@ with open(file_path, mode='r', encoding='utf-8') as file:
     # Convert the CSV data to a list of rows
     data = list(csv_reader)
     
-
 # Display the first few rows of the data
 total_price: int = 0
 for row in data[1:]:
